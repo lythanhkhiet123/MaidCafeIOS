@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9002A1621353D58008D1380 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9002A1521353D58008D1380 /* main.m */; };
+		E9002A1921353D58008D1380 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9002A1821353D58008D1380 /* AppDelegate.m */; };
+		E9002A1C21353D58008D1380 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9002A1B21353D58008D1380 /* ViewController.m */; };
+		E9002A1F21353D58008D1380 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9002A1D21353D58008D1380 /* Main.storyboard */; };
+		E9002A2121353D58008D1380 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9002A2021353D58008D1380 /* Assets.xcassets */; };
+		E9002A2421353D58008D1380 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9002A2221353D58008D1380 /* LaunchScreen.storyboard */; };
+		E9002A2F21353D58008D1380 /* Maid_CafeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9002A2E21353D58008D1380 /* Maid_CafeTests.m */; };
+		E9002A3A21353D58008D1380 /* Maid_CafeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9002A3921353D58008D1380 /* Maid_CafeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9002A2B21353D58008D1380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9002A0921353D58008D1380 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9002A1021353D58008D1380;
+			remoteInfo = "Maid Cafe";
+		};
+		E9002A3621353D58008D1380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9002A0921353D58008D1380 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9002A1021353D58008D1380;
+			remoteInfo = "Maid Cafe";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E9002A1121353D58008D1380 /* Maid Cafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Maid Cafe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9002A1521353D58008D1380 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9002A1721353D58008D1380 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E9002A1821353D58008D1380 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E9002A1A21353D58008D1380 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E9002A1B21353D58008D1380 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E9002A1E21353D58008D1380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9002A2021353D58008D1380 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9002A2321353D58008D1380 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9002A2521353D58008D1380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9002A2A21353D58008D1380 /* Maid CafeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Maid CafeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9002A2E21353D58008D1380 /* Maid_CafeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Maid_CafeTests.m; sourceTree = "<group>"; };
+		E9002A3021353D58008D1380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9002A3521353D58008D1380 /* Maid CafeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Maid CafeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9002A3921353D58008D1380 /* Maid_CafeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Maid_CafeUITests.m; sourceTree = "<group>"; };
+		E9002A3B21353D58008D1380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9002A0E21353D58008D1380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9002A2721353D58008D1380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9002A3221353D58008D1380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9002A0821353D58008D1380 = {
+			isa = PBXGroup;
+			children = (
+				E9002A1321353D58008D1380 /* Maid Cafe */,
+				E9002A2D21353D58008D1380 /* Maid CafeTests */,
+				E9002A3821353D58008D1380 /* Maid CafeUITests */,
+				E9002A1221353D58008D1380 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9002A1221353D58008D1380 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9002A1121353D58008D1380 /* Maid Cafe.app */,
+				E9002A2A21353D58008D1380 /* Maid CafeTests.xctest */,
+				E9002A3521353D58008D1380 /* Maid CafeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9002A1321353D58008D1380 /* Maid Cafe */ = {
+			isa = PBXGroup;
+			children = (
+				E9002A1721353D58008D1380 /* AppDelegate.h */,
+				E9002A1821353D58008D1380 /* AppDelegate.m */,
+				E9002A1A21353D58008D1380 /* ViewController.h */,
+				E9002A1B21353D58008D1380 /* ViewController.m */,
+				E9002A1D21353D58008D1380 /* Main.storyboard */,
+				E9002A2021353D58008D1380 /* Assets.xcassets */,
+				E9002A2221353D58008D1380 /* LaunchScreen.storyboard */,
+				E9002A2521353D58008D1380 /* Info.plist */,
+				E9002A1421353D58008D1380 /* Supporting Files */,
+			);
+			path = "Maid Cafe";
+			sourceTree = "<group>";
+		};
+		E9002A1421353D58008D1380 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9002A1521353D58008D1380 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9002A2D21353D58008D1380 /* Maid CafeTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9002A2E21353D58008D1380 /* Maid_CafeTests.m */,
+				E9002A3021353D58008D1380 /* Info.plist */,
+			);
+			path = "Maid CafeTests";
+			sourceTree = "<group>";
+		};
+		E9002A3821353D58008D1380 /* Maid CafeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E9002A3921353D58008D1380 /* Maid_CafeUITests.m */,
+				E9002A3B21353D58008D1380 /* Info.plist */,
+			);
+			path = "Maid CafeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9002A1021353D58008D1380 /* Maid Cafe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9002A3E21353D58008D1380 /* Build configuration list for PBXNativeTarget "Maid Cafe" */;
+			buildPhases = (
+				E9002A0D21353D58008D1380 /* Sources */,
+				E9002A0E21353D58008D1380 /* Frameworks */,
+				E9002A0F21353D58008D1380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Maid Cafe";
+			productName = "Maid Cafe";
+			productReference = E9002A1121353D58008D1380 /* Maid Cafe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9002A2921353D58008D1380 /* Maid CafeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9002A4121353D58008D1380 /* Build configuration list for PBXNativeTarget "Maid CafeTests" */;
+			buildPhases = (
+				E9002A2621353D58008D1380 /* Sources */,
+				E9002A2721353D58008D1380 /* Frameworks */,
+				E9002A2821353D58008D1380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9002A2C21353D58008D1380 /* PBXTargetDependency */,
+			);
+			name = "Maid CafeTests";
+			productName = "Maid CafeTests";
+			productReference = E9002A2A21353D58008D1380 /* Maid CafeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9002A3421353D58008D1380 /* Maid CafeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9002A4421353D58008D1380 /* Build configuration list for PBXNativeTarget "Maid CafeUITests" */;
+			buildPhases = (
+				E9002A3121353D58008D1380 /* Sources */,
+				E9002A3221353D58008D1380 /* Frameworks */,
+				E9002A3321353D58008D1380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9002A3721353D58008D1380 /* PBXTargetDependency */,
+			);
+			name = "Maid CafeUITests";
+			productName = "Maid CafeUITests";
+			productReference = E9002A3521353D58008D1380 /* Maid CafeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9002A0921353D58008D1380 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Zhuofu Wang";
+				TargetAttributes = {
+					E9002A1021353D58008D1380 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					E9002A2921353D58008D1380 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E9002A1021353D58008D1380;
+					};
+					E9002A3421353D58008D1380 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E9002A1021353D58008D1380;
+					};
+				};
+			};
+			buildConfigurationList = E9002A0C21353D58008D1380 /* Build configuration list for PBXProject "Maid Cafe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9002A0821353D58008D1380;
+			productRefGroup = E9002A1221353D58008D1380 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9002A1021353D58008D1380 /* Maid Cafe */,
+				E9002A2921353D58008D1380 /* Maid CafeTests */,
+				E9002A3421353D58008D1380 /* Maid CafeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9002A0F21353D58008D1380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9002A2421353D58008D1380 /* LaunchScreen.storyboard in Resources */,
+				E9002A2121353D58008D1380 /* Assets.xcassets in Resources */,
+				E9002A1F21353D58008D1380 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9002A2821353D58008D1380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9002A3321353D58008D1380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9002A0D21353D58008D1380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9002A1C21353D58008D1380 /* ViewController.m in Sources */,
+				E9002A1921353D58008D1380 /* AppDelegate.m in Sources */,
+				E9002A1621353D58008D1380 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9002A2621353D58008D1380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9002A2F21353D58008D1380 /* Maid_CafeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9002A3121353D58008D1380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9002A3A21353D58008D1380 /* Maid_CafeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9002A2C21353D58008D1380 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9002A1021353D58008D1380 /* Maid Cafe */;
+			targetProxy = E9002A2B21353D58008D1380 /* PBXContainerItemProxy */;
+		};
+		E9002A3721353D58008D1380 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9002A1021353D58008D1380 /* Maid Cafe */;
+			targetProxy = E9002A3621353D58008D1380 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9002A1D21353D58008D1380 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9002A1E21353D58008D1380 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9002A2221353D58008D1380 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9002A2321353D58008D1380 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9002A3C21353D58008D1380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9002A3D21353D58008D1380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9002A3F21353D58008D1380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Maid Cafe/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ait.Maid-Cafe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E9002A4021353D58008D1380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Maid Cafe/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ait.Maid-Cafe";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E9002A4221353D58008D1380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Maid CafeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ait.Maid-CafeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Maid Cafe.app/Maid Cafe";
+			};
+			name = Debug;
+		};
+		E9002A4321353D58008D1380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Maid CafeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ait.Maid-CafeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Maid Cafe.app/Maid Cafe";
+			};
+			name = Release;
+		};
+		E9002A4521353D58008D1380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Maid CafeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ait.Maid-CafeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Maid Cafe";
+			};
+			name = Debug;
+		};
+		E9002A4621353D58008D1380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Maid CafeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ait.Maid-CafeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Maid Cafe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9002A0C21353D58008D1380 /* Build configuration list for PBXProject "Maid Cafe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9002A3C21353D58008D1380 /* Debug */,
+				E9002A3D21353D58008D1380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9002A3E21353D58008D1380 /* Build configuration list for PBXNativeTarget "Maid Cafe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9002A3F21353D58008D1380 /* Debug */,
+				E9002A4021353D58008D1380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E9002A4121353D58008D1380 /* Build configuration list for PBXNativeTarget "Maid CafeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9002A4221353D58008D1380 /* Debug */,
+				E9002A4321353D58008D1380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E9002A4421353D58008D1380 /* Build configuration list for PBXNativeTarget "Maid CafeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9002A4521353D58008D1380 /* Debug */,
+				E9002A4621353D58008D1380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9002A0921353D58008D1380 /* Project object */;
+}
