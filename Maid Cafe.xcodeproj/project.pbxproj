@@ -15,7 +15,6 @@
 		E9002A2421353D58008D1380 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9002A2221353D58008D1380 /* LaunchScreen.storyboard */; };
 		E9002A2F21353D58008D1380 /* Maid_CafeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9002A2E21353D58008D1380 /* Maid_CafeTests.m */; };
 		E9002A3A21353D58008D1380 /* Maid_CafeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9002A3921353D58008D1380 /* Maid_CafeUITests.m */; };
-		E9002A4921355077008D1380 /* webViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9002A4821355077008D1380 /* webViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +52,6 @@
 		E9002A3921353D58008D1380 /* Maid_CafeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Maid_CafeUITests.m; sourceTree = "<group>"; };
 		E9002A3B21353D58008D1380 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E9002A4721355077008D1380 /* Maid Cafe-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Maid Cafe-Bridging-Header.h"; sourceTree = "<group>"; };
-		E9002A4821355077008D1380 /* webViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = webViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +111,6 @@
 				E9002A2221353D58008D1380 /* LaunchScreen.storyboard */,
 				E9002A2521353D58008D1380 /* Info.plist */,
 				E9002A1421353D58008D1380 /* Supporting Files */,
-				E9002A4821355077008D1380 /* webViewController.swift */,
 				E9002A4721355077008D1380 /* Maid Cafe-Bridging-Header.h */,
 			);
 			path = "Maid Cafe";
@@ -282,7 +279,6 @@
 				E9002A1C21353D58008D1380 /* ViewController.m in Sources */,
 				E9002A1921353D58008D1380 /* AppDelegate.m in Sources */,
 				E9002A1621353D58008D1380 /* main.m in Sources */,
-				E9002A4921355077008D1380 /* webViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,7 +457,6 @@
 		E9002A4221353D58008D1380 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Maid CafeTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -474,7 +469,6 @@
 		E9002A4321353D58008D1380 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Maid CafeTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -487,7 +481,6 @@
 		E9002A4521353D58008D1380 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Maid CafeUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ait.Maid-CafeUITests";
@@ -499,7 +492,6 @@
 		E9002A4621353D58008D1380 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Maid CafeUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ait.Maid-CafeUITests";
@@ -527,6 +519,7 @@
 				E9002A4021353D58008D1380 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9002A4121353D58008D1380 /* Build configuration list for PBXNativeTarget "Maid CafeTests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +528,7 @@
 				E9002A4321353D58008D1380 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E9002A4421353D58008D1380 /* Build configuration list for PBXNativeTarget "Maid CafeUITests" */ = {
 			isa = XCConfigurationList;
@@ -543,6 +537,7 @@
 				E9002A4621353D58008D1380 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
