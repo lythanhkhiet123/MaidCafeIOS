@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		203D5CBE215A16180070F184 /* WebViewControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D5CBD215A16180070F184 /* WebViewControl.m */; };
+		203D5CC1215A18520070F184 /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 203D5CC0215A18520070F184 /* ContactsViewController.m */; };
 		E9002A1621353D58008D1380 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9002A1521353D58008D1380 /* main.m */; };
 		E9002A1921353D58008D1380 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9002A1821353D58008D1380 /* AppDelegate.m */; };
 		E9002A1C21353D58008D1380 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9002A1B21353D58008D1380 /* ViewController.m */; };
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		203D5CBD215A16180070F184 /* WebViewControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewControl.m; sourceTree = "<group>"; };
+		203D5CBF215A18520070F184 /* ContactsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactsViewController.h; sourceTree = "<group>"; };
+		203D5CC0215A18520070F184 /* ContactsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContactsViewController.m; sourceTree = "<group>"; };
 		E9002A1121353D58008D1380 /* Maid Cafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Maid Cafe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9002A1521353D58008D1380 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E9002A1721353D58008D1380 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -112,6 +117,9 @@
 				E9002A2521353D58008D1380 /* Info.plist */,
 				E9002A1421353D58008D1380 /* Supporting Files */,
 				E9002A4721355077008D1380 /* Maid Cafe-Bridging-Header.h */,
+				203D5CBD215A16180070F184 /* WebViewControl.m */,
+				203D5CBF215A18520070F184 /* ContactsViewController.h */,
+				203D5CC0215A18520070F184 /* ContactsViewController.m */,
 			);
 			path = "Maid Cafe";
 			sourceTree = "<group>";
@@ -277,6 +285,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9002A1C21353D58008D1380 /* ViewController.m in Sources */,
+				203D5CBE215A16180070F184 /* WebViewControl.m in Sources */,
+				203D5CC1215A18520070F184 /* ContactsViewController.m in Sources */,
 				E9002A1921353D58008D1380 /* AppDelegate.m in Sources */,
 				E9002A1621353D58008D1380 /* main.m in Sources */,
 			);
@@ -430,6 +440,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Maid Cafe/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ait.Maid-Cafe";
@@ -445,6 +456,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Maid Cafe/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ait.Maid-Cafe";

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="3WX-uD-uaj">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <deployment version="4352" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -513,10 +513,6 @@
                                         <rect key="frame" x="8" y="8" width="398" height="85"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="png_menu_coffee1_expresso" translatesAutoresizingMaskIntoConstraints="NO" id="Yoy-1t-75e">
-                                                <rect key="frame" x="0.0" y="0.0" width="99" height="85"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Coffee" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7bh-Mf-QNW">
                                                 <rect key="frame" x="149" y="32" width="52" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -524,6 +520,14 @@
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bGq-SK-85S">
+                                                <rect key="frame" x="0.0" y="0.0" width="99" height="85"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button" image="png_menu_coffee1_expresso"/>
+                                                <connections>
+                                                    <segue destination="z2C-YJ-Bz1" kind="show" id="eO4-jE-d57"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.65351764899999998" green="0.28332663619999998" blue="0.24719067929999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
@@ -531,10 +535,6 @@
                                         <rect key="frame" x="8" y="101" width="398" height="83"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="png_menu_coffee2_mochaccino" translatesAutoresizingMaskIntoConstraints="NO" id="kav-rx-PA5">
-                                                <rect key="frame" x="0.0" y="0.0" width="100" height="83"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Iced Coffee" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xj8-aR-Q1d">
                                                 <rect key="frame" x="143" y="31" width="89" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -542,6 +542,14 @@
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KCY-Ad-GSS">
+                                                <rect key="frame" x="0.0" y="-1" width="99" height="85"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button" image="png_menu_coffee2_mochaccino"/>
+                                                <connections>
+                                                    <segue destination="KSx-V2-Azi" kind="show" id="F53-je-dKk"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.65351764899999998" green="0.28332663619999998" blue="0.24719067929999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
@@ -549,10 +557,6 @@
                                         <rect key="frame" x="8" y="192" width="398" height="93"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="png_menu_main_dessert" translatesAutoresizingMaskIntoConstraints="NO" id="GQW-2m-qDY">
-                                                <rect key="frame" x="0.0" y="0.0" width="101" height="93"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Desserts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2gx-zI-NEv">
                                                 <rect key="frame" x="143" y="36" width="69" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -560,6 +564,14 @@
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IVQ-oP-QdV">
+                                                <rect key="frame" x="0.0" y="0.0" width="102" height="93"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button" image="png_menu_main_dessert"/>
+                                                <connections>
+                                                    <segue destination="uOa-t0-vCP" kind="show" id="SzH-YZ-1HK"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.65351764899999998" green="0.28332663619999998" blue="0.24719067929999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
@@ -567,10 +579,6 @@
                                         <rect key="frame" x="8" y="293" width="398" height="93"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="png_menu_main_meal" translatesAutoresizingMaskIntoConstraints="NO" id="X6n-CY-8aG">
-                                                <rect key="frame" x="0.0" y="0.0" width="102" height="93"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Main meal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NsI-LR-Vpg">
                                                 <rect key="frame" x="143" y="36" width="78" height="21"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -578,6 +586,14 @@
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rdq-K9-p5N">
+                                                <rect key="frame" x="0.0" y="0.0" width="103" height="93"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button" image="png_menu_main_meal"/>
+                                                <connections>
+                                                    <segue destination="ID7-ZH-kLz" kind="show" id="k0i-Jx-kHq"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" red="0.65351764899999998" green="0.28332663619999998" blue="0.24719067929999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
@@ -590,7 +606,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ya6-Se-KII" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="116.25" y="1591.9014084507041"/>
+            <point key="canvasLocation" x="115.94202898550725" y="1591.304347826087"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Tin-7r-uJH">
@@ -1092,10 +1108,10 @@
             </objects>
             <point key="canvasLocation" x="1028.985507246377" y="859.23913043478262"/>
         </scene>
-        <!--View Controller-->
+        <!--Contacts View Controller-->
         <scene sceneID="j8U-2F-lzO">
             <objects>
-                <viewController id="hc4-lk-Tkg" sceneMemberID="viewController">
+                <viewController id="hc4-lk-Tkg" customClass="ContactsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="X1v-3R-3vx"/>
                         <viewControllerLayoutGuide type="bottom" id="klo-oN-i6w"/>
@@ -1236,7 +1252,7 @@
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                         <state key="normal" title="&lt; Home"/>
                                         <connections>
-                                            <segue destination="BYZ-38-t0r" kind="show" id="6Hv-l2-KyU"/>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="zSX-uv-lzG"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -1250,10 +1266,10 @@
             </objects>
             <point key="canvasLocation" x="960.86956521739137" y="122.28260869565219"/>
         </scene>
-        <!--Web View Controller-->
+        <!--View Controller-->
         <scene sceneID="gDV-3x-snI">
             <objects>
-                <viewController id="3WX-uD-uaj" customClass="webViewController" customModule="Maid_Cafe" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="3WX-uD-uaj" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="kkj-c4-akg"/>
                         <viewControllerLayoutGuide type="bottom" id="5Sg-Th-A75"/>
@@ -1262,50 +1278,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zIH-ah-QtR">
-                                <rect key="frame" x="0.0" y="20" width="414" height="59"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MIQ-01-IaE">
-                                        <rect key="frame" x="4" y="14" width="86" height="30"/>
-                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
-                                        <state key="normal" title="&lt; Home"/>
-                                        <connections>
-                                            <segue destination="BYZ-38-t0r" kind="show" id="0Mk-8w-REb"/>
-                                        </connections>
-                                    </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Facebook" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TW1-wL-3rt">
-                                        <rect key="frame" x="153" y="19" width="109" height="21"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="bottomMargin" secondItem="TW1-wL-3rt" secondAttribute="bottom" constant="11" id="GuU-4P-52R"/>
-                                    <constraint firstItem="MIQ-01-IaE" firstAttribute="leading" secondItem="zIH-ah-QtR" secondAttribute="leadingMargin" constant="4" id="IYV-7K-WyV"/>
-                                    <constraint firstAttribute="trailingMargin" secondItem="TW1-wL-3rt" secondAttribute="trailing" constant="144" id="NiR-lU-7OW"/>
-                                    <constraint firstItem="MIQ-01-IaE" firstAttribute="top" secondItem="zIH-ah-QtR" secondAttribute="topMargin" constant="14" id="Niy-E0-Wy3"/>
-                                    <constraint firstAttribute="bottomMargin" secondItem="MIQ-01-IaE" secondAttribute="bottom" constant="7" id="T86-KC-SMI"/>
-                                    <constraint firstItem="TW1-wL-3rt" firstAttribute="leading" secondItem="MIQ-01-IaE" secondAttribute="trailing" constant="63" id="dyA-yy-9R2"/>
-                                    <constraint firstItem="TW1-wL-3rt" firstAttribute="top" secondItem="zIH-ah-QtR" secondAttribute="topMargin" constant="19" id="jcw-4r-DdY"/>
-                                    <constraint firstItem="TW1-wL-3rt" firstAttribute="leading" secondItem="MIQ-01-IaE" secondAttribute="trailing" constant="63" id="m0K-ey-uyT"/>
-                                </constraints>
-                            </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Facebook content will load in full version" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dS9-eU-ix2">
-                                <rect key="frame" x="59" y="358" width="309" height="21"/>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="2iP-XB-xOb">
+                                <rect key="frame" x="197" y="316" width="20" height="20"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            </activityIndicatorView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="9AU-bC-Q43">
+                                <rect key="frame" x="191" y="344" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <wkWebView contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b2S-6e-klv">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9AU-bC-Q43" firstAttribute="centerY" secondItem="b2S-6e-klv" secondAttribute="centerY" id="2tV-6e-kZX"/>
+                            <constraint firstItem="5Sg-Th-A75" firstAttribute="top" secondItem="b2S-6e-klv" secondAttribute="bottom" id="PDc-UI-b3m"/>
+                            <constraint firstAttribute="trailing" secondItem="b2S-6e-klv" secondAttribute="trailing" id="akb-Yh-BK6"/>
+                            <constraint firstItem="b2S-6e-klv" firstAttribute="leading" secondItem="tSz-g1-dnT" secondAttribute="leading" id="f9u-xV-1JX"/>
+                            <constraint firstItem="b2S-6e-klv" firstAttribute="leading" secondItem="9AU-bC-Q43" secondAttribute="trailing" constant="-211" id="gZx-wa-2el"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="activityIndicator" destination="9AU-bC-Q43" id="Br4-4M-Bf2"/>
+                        <outlet property="webView" destination="b2S-6e-klv" id="tJd-PE-gE0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="77J-p0-blQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1771.0144927536232" y="123.09782608695653"/>
+            <point key="canvasLocation" x="1755.072463768116" y="39.945652173913047"/>
         </scene>
     </scenes>
     <resources>
@@ -1334,7 +1339,8 @@
         <image name="png_menu_meal_rice3" width="180" height="180"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="FhW-1x-K62"/>
-        <segue reference="VV4-RT-iQY"/>
+        <segue reference="uYz-xW-6Sd"/>
+        <segue reference="n7W-qj-ZZg"/>
+        <segue reference="CwJ-Pg-vAN"/>
     </inferredMetricsTieBreakers>
 </document>
